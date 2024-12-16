@@ -37,8 +37,9 @@ section h2{
     font-family: "Chakra Petch", sans-serif;
     font-size: 2rem;
     text-align: center;
-    padding-top: 3em;
-    margin-bottom: 2em;
+    margin-top: 4em;
+    letter-spacing: 0.03em;
+    margin-bottom: 1.3em;
     font-weight: 100;
     color: #737373;
 }
@@ -103,7 +104,7 @@ ul{
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-top:-2em;
+    margin-top:1em;
     margin-bottom: 5em;
 }
 ul li{
@@ -277,7 +278,8 @@ ul p{
 #blocCeramique{
     background-color: #ebe1cf;
     padding-bottom: 50px;
-    margin-top: 5em;
+    margin-top: 2em;
+    padding-top: 0.2em;
 }
 #blocEnCours{
     background-color: #d8cbb4;
