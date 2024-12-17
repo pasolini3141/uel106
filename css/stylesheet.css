@@ -293,3 +293,44 @@ ul p{
     left: 80%;
     margin-top: 40px;
 }
+#application p{
+    text-align: center;
+}
+#getJoke{
+   font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.6em;
+    text-align: justify;
+}
+#application h2{
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+}
+#application button{
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+    background-color: #d8cbb4;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#application{
+    display: block;
+    text-align: center;
+    posiiton: relative;
+    margin-bottom: 3em;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ccbcd3;
+    padding-bottom: 60px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 20px;
+}

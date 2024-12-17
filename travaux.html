@@ -32,6 +32,9 @@
                <p>|</p>
                <a href="index.html#blocCeramique">Sculptures</a>
                <p>|</p>
+               <a href="#application">Random Joke</a>
+               <p>|</p>
+               <a href="#bandeauBas">Contact</a>
          </div> 
    		<div id="blocEnCours">
             <section>
@@ -47,8 +50,32 @@
                      <a href="http://s144644046.onlinehome.fr/l104-24/sion/" target="_blank"><img src="./medias/images/html.png"></a>
                   </div>
                </div>
-   		    </section>
-         </div>
+            </section>
+        </div>
+
+      <!---API-->
+            <div id="application">
+               <h2>Random Joke</h2>
+               <button id="getJoke">Get a joke !</button>
+               <div id="joke"></div>
+
+               <script>
+                  document.getElementById("getJoke").addEventListener("click", function() {
+                     const url = "https://official-joke-api.appspot.com/random_joke";
+
+                     fetch(url)
+                        .then(response => response.json())
+                        .then(data => {
+                           document.getElementById("joke").innerHTML = `
+                              <p>${data.setup}</p>
+                               <p><strong>${data.punchline}</strong></p>
+                           `;
+                     })
+                     .catch(error => console.error("Error fetching the API:", error));
+                  });
+               </script>
+            </div>
+      <!--fin d'API-->
 
          
    		<footer>
