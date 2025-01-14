@@ -32,9 +32,6 @@
                <p>|</p>
                <a href="index.html#blocCeramique">Sculptures</a>
                <p>|</p>
-               <a href="#application">Random Joke</a>
-               <p>|</p>
-               <a href="#bandeauBas">Contact</a>
          </div> 
    		<div id="blocEnCours">
             <section>
@@ -50,36 +47,8 @@
                      <a href="http://s144644046.onlinehome.fr/l104-24/sion/" target="_blank"><img src="./medias/images/html.png"></a>
                   </div>
                </div>
-            </section>
-        </div>
-
-      <!---API-->
-            <div id="application">
-               <h2>Meteo de Paris</h2>              
-               <div id="weather"></div>
-              <script>
-                const apiKey = '4af5254d046168b9383f9cb0c4032567';  // Remplacez par votre propre clé API
-                const city = 'Paris';  // Vous pouvez changer la ville
-                const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&lang=fr&units=metric`;
-
-                fetch(url)
-                  .then(response => response.json())
-                  .then(data => {
-                    const temperature = data.main.temp;
-                    const description = data.weather[0].description;
-                    const icon = `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
-
-                    const weatherHTML = `
-                      <p>Température : ${temperature} °C</p>
-                      <p>Conditions : ${description}</p>
-                      <img src="${icon}" alt="Icône météo">
-                    `;
-                    document.getElementById('weather').innerHTML = weatherHTML;
-                  })
-                  .catch(error => console.error('Erreur :', error));
-              </script>
-            </div>
-      <!--fin d'API-->
+   		    </section>
+         </div>
 
          
    		<footer>
