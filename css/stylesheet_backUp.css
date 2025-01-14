@@ -37,9 +37,8 @@ section h2{
     font-family: "Chakra Petch", sans-serif;
     font-size: 2rem;
     text-align: center;
-    margin-top: 4em;
-    letter-spacing: 0.03em;
-    margin-bottom: 1.3em;
+    padding-top: 3em;
+    margin-bottom: 2em;
     font-weight: 100;
     color: #737373;
 }
@@ -104,7 +103,7 @@ ul{
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-top:1em;
+    margin-top:-2em;
     margin-bottom: 5em;
 }
 ul li{
@@ -278,8 +277,7 @@ ul p{
 #blocCeramique{
     background-color: #ebe1cf;
     padding-bottom: 50px;
-    margin-top: 2em;
-    padding-top: 0.2em;
+    margin-top: 5em;
 }
 #blocEnCours{
     background-color: #d8cbb4;
@@ -292,57 +290,4 @@ ul p{
     height: 30px;
     left: 80%;
     margin-top: 40px;
-}
-#application p{
-    text-align: center;
-    font-family: "Roboto", serif;
-    color: white;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1.1em;
-    line-height: 1.6em;
-}
-
-#application h2{
-    font-family: "Chakra Petch", sans-serif;
-    font-size: 2rem;
-    font-weight: 400;
-    color: white;
-}
-#weather button{
-    font-family: "Chakra Petch", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    color: black;
-    background-color: #d8cbb4;
-    padding: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-#application{
-    display: block;
-    text-align: center;
-    position: relative;
-    margin-bottom: 3em;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #ccbcd3;
-    padding-bottom: 60px;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    padding-top: 20px;
-}
-#weather{
-    display: block;
-    text-align: center;
-    position: relative;
-    margin-bottom: 3em;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #ccbcd3;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    padding-top: 10px;
 }
