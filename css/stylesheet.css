@@ -295,17 +295,6 @@ ul p{
 }
 #application p{
     text-align: center;
-<<<<<<< HEAD
-}
-#getJoke{
-   font-family: "Roboto", serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 1em;
-    line-height: 1.6em;
-    text-align: justify;
-}
-=======
     font-family: "Roboto", serif;
     color: white;
     font-weight: 600;
@@ -314,18 +303,13 @@ ul p{
     line-height: 1.6em;
 }
 
->>>>>>> dev
 #application h2{
     font-family: "Chakra Petch", sans-serif;
     font-size: 2rem;
     font-weight: 400;
     color: white;
 }
-<<<<<<< HEAD
-#application button{
-=======
 #weather button{
->>>>>>> dev
     font-family: "Chakra Petch", sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -338,11 +322,7 @@ ul p{
 #application{
     display: block;
     text-align: center;
-<<<<<<< HEAD
-    posiiton: relative;
-=======
     position: relative;
->>>>>>> dev
     margin-bottom: 3em;
     width: 100%;
     margin-right: auto;
@@ -352,8 +332,6 @@ ul p{
     margin-top: 2em;
     margin-bottom: 2em;
     padding-top: 20px;
-<<<<<<< HEAD
-=======
 }
 #weather{
     display: block;
@@ -367,5 +345,4 @@ ul p{
     margin-top: 1em;
     margin-bottom: 2em;
     padding-top: 10px;
->>>>>>> dev
 }
